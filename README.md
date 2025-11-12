@@ -19,12 +19,13 @@ pip install -r requirements.txt
 ### 3. Thêm file audio muốn dự đoán
 Example:
 ```bash
-/voice-gender-prediction
+/btl-dsp
 │── model.pkl
 │── predict.py
 │── your_audio.wav  ✅
 ```
-### 4. Paste tên file vào file `predict.py`Example:
+### 4. Paste tên file vào file `predict.py`
+Example:
 ```bash
 from utils import predict_gender
 
